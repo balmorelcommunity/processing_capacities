@@ -1,0 +1,16 @@
+balmorel_fuel,color,opsd_color
+COAL,brown,dimgray
+BGAS,green,lime
+ELEC,orange,greenyellow
+FUELOIL,black,black
+HEAT,red,red
+LIGN,saddlebrown,darkgoldenrod
+MSW,red,purple
+NGAS,purple,firebrick
+NUCL,greenyellow,orange
+Other,grey,silver
+SUN,gold,yellow
+WIND,royalblue,cyan
+WTR,blue,blue
+HYDRO,navy,navy
+GEO/AIR,red,red

@@ -1,0 +1,17 @@
+balmorel_fuel,opsd_energy_source_level_1,opsd_energy_source_level_2,opsd_energy_source_level_3
+NUCL,Nuclear,,
+NGAS,Fossil fuels,Natural gas,
+COAL,Fossil fuels,Hard coal,
+LIGN,Fossil fuels,Lignite,
+FUELOIL,Fossil fuels,Oil,
+MSW,Other or unspecified energy sources,Waste,
+BGAS,Renewable energy,Bioenergy,Sewage and landfill gas
+BGAS,Renewable energy,Bioenergy,Biomass and biogas
+WIND,Renewable energy,Wind,
+WTR,Renewable energy,Hydro,
+SUN,Renewable energy,Solar,
+ELEC,Other,Other fuels,
+ELEC,Renewable energy,Speicher,
+ELEC,Renewable energy,Storage,
+HEAT,Renewable energy,Geothermal,
+BGAS,Renewable energy,Other fossil fuels,

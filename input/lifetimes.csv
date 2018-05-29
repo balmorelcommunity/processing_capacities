@@ -1,0 +1,50 @@
+opsd_technology_conventional,opsd_fuel,opsd_chp,opsd_technology_renewable,lifetime_2015,lifetime_2020,lifetime_2030,lifetime_2050
+Combined cycle,Hard coal,yes,,40,40,40,40
+Combined cycle,Natural gas,yes,,25,25,25,25
+Combined cycle,Oil,yes,,20,,,
+Combined cycle,Other fuels,yes,,25,25,25,25
+Combined cycle,Waste,yes,,25,25,25,25
+Combustion Engine,Biomass and biogas,yes,,25,25,25,25
+Combustion Engine,Natural gas,yes,,25,25,25,25
+Combustion Engine,Other fossil fuels,yes,,25,25,25,25
+Gas turbine,Natural gas,yes,,25,25,25,25
+Gas turbine,Other fuels,yes,,25,25,25,25
+Steam turbine,Biomass and biogas,yes,,25,25,25,25
+Steam turbine,Hard coal,yes,,40,40,40,40
+Steam turbine,Lignite,yes,,40,40,40,40
+Steam turbine,Natural gas,yes,,30,30,30,30
+Steam turbine,Oil,yes,,25,,,
+Steam turbine,Other fossil fuels,yes,,25,25,25,25
+Steam turbine,Other fuels,yes,,30,30,30,30
+Steam turbine,Waste,yes,,25,25,25,25
+Combined cycle,Natural gas,no,,25,25,25,25
+Combined cycle,Oil,no,,20,,,
+Combined cycle,Other fuels,no,,25,25,25,25
+Combustion Engine,Natural gas,no,,25,25,25,25
+Gas turbine,Natural gas,no,,25,25,25,25
+Gas turbine,Oil,no,,25,,,
+Gas turbine,Other fuels,no,,25,25,25,25
+Steam turbine,Biomass and biogas,no,,25,25,25,25
+Steam turbine,Hard coal,no,,40,40,40,40
+Steam turbine,Lignite,no,,40,40,40,40
+Steam turbine,Natural gas,no,,30,30,30,30
+Steam turbine,Nuclear,no,,40,,,
+Steam turbine,Oil,no,,25,,,
+Steam turbine,Other fuels,no,,30,30,30,30
+Steam turbine,Waste,no,,25,25,25,25
+Steam turbine,Other fossil fuels,no,,30,30,30,30
+Run-of-river,Hydro,no,Run-of-river,30,,,
+Reservoir,Hydro,no,,50,50,50,50
+Pumped storage,Hydro,no,,50,50,50,50
+Storage technologies,Other fuels,no,,15,15,15,15
+,,,Photovoltaics,30,35,40,40
+,,,Photovoltaics ground,30,35,40,40
+,,,Onshore,25,27,30,30
+,,,Offshore,25,27,30,30
+,,,Speicher,15,,,
+,,,Geothermal,25,,,
+,,,Bioenergy,25,25,25,25
+,,,Other fossil fuels,25,,,
+,,,Storage,15,,,
+,,,Biomass and biogas,25,25,25,25
+,,,Sewage and landfill gas,25,25,25,25

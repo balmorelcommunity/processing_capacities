@@ -1,0 +1,34 @@
+balmorel_tec_group,balmorel_tec_type,opsd_technology_conventional,opsd_chp,opsd_technology_renewable
+CC,BP,Combined cycle,yes,
+ENG,BP,Combustion Engine,yes,
+GT,BP,Gas turbine,yes,
+ST,BP,Steam turbine,yes,
+CC,CND,Combined cycle,no,
+ENG,CND,Combustion Engine,no,
+GT,CND,Gas turbine,no,
+ST,CND,Steam turbine,no,
+HP,,,no,
+,EXT,,yes,
+BO,,,no,
+ROR,,Run-of-river,no,Run-of-river
+RES,NOPMP,Reservoir,no,
+RES,PMP,Pumped storage,no,
+PV,,,no,Photovoltaics
+PV,,,no,Photovoltaics ground
+WT,ONS,,no,Onshore
+WT,OFF,,no,Offshore
+ES,,Storage technologies,no,
+HS,,,no,
+SH,,,no,
+WAVE,,,no,
+ES,,,no,Speicher
+ES,,,no,Storage
+GEO,EO,,no,Geothermal
+ENG,BP,,yes,Other fossil fuels
+ENG,CND,,no,Other fossil fuels
+ENG,BP,,yes,Bioenergy
+ENG,CND,,no,Bioenergy
+ENG,BP,,yes,Biomass and biogas
+ENG,CND,,no,Biomass and biogas
+ENG,BP,,yes,Sewage and landfill gas
+ENG,CND,,no,Sewage and landfill gas
