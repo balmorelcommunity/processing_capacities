@@ -1,0 +1,148 @@
+{
+	"title": "capacities_DE",
+	"description": "contains annual stacked installed capacities of powerplants in germany, grouped by technology, fuel and efficiency",
+	"language": "eng",
+	"processing": "python-3.6",
+	"encoding": "UTF-8",
+	"spatial": 	
+		{
+		"location": "",
+		"extent": "germany",
+		"resolution": "balmorel_DE1, balmorel_DE4, balmorel_DE5, balmorel_DE18"
+		},
+	"temporal": 
+		{
+		"reference_date": "2015",
+		"start": "2012",
+		"end": "2050",
+		"timezone": "-",
+		"resolution": "year"
+		},
+	"sources": [
+		{
+		"name": "conventional_powerplants_DE",
+		"description": "List of conventional power plants in Germany",
+		"url": "https://data.open-power-system-data.org/conventional_power_plants/latest/",
+		"citation": ""Open Power System Data. 2017. Data Package Conventional power plants. Version 2017-07-07. https://data.open-power-system-data.org/conventional_power_plants/2017-07-07/. (Primary data from various sources, for a complete list see URL)."",
+		"license": "not defined (several sources)",
+		"copyright": "unknown"
+		},
+		{
+		"name": "renewable_powerplants_DE",
+		"description": "List of renewable power plants in Germany",
+		"url": "https://data.open-power-system-data.org/renewable_power_plants/latest/",
+		"citation": " "Open Power System Data. 2017. Data Package Renewable power plants. Version 2017-07-03. https://data.open-power-system-data.org/renewable_power_plants/2017-07-03/. (Primary data from various sources, for a complete list see URL).",
+		"license": "not defined (several sources)",
+		"copyright": "unknown"
+		},
+		{
+		"name": "Technology Data for Energy Plants, Updated chapters, August 2016",
+		"description": "Catalogue containing data on energy producing technologies.",
+		"url": "https://ens.dk/sites/ens.dk/files/Analyser/update_-_technology_data_catalogue_for_energy_plants_-_aug_2016.pdf",
+		"citation": "",
+		"license": "unknown",
+		"copyright": "unknown"
+		},
+		{
+		"name": "Germany, 2013 Review",
+		"description": "Energy Policies of IEA Countries",
+		"url": "https://www.iea.org/publications/freepublications/publication/Germany2013_free.pdf",
+		"citation": "",
+		"license": "Creative Commons IGO",
+		"copyright": "unknown"
+		}
+		{
+		"name": "suche-postleitzahl.org",
+		"description": "Allocation table of zip-codes, cities and federal states.",
+		"url": "https://www.suche-postleitzahl.org/",
+		"citation": "",
+		"license": "ODbL & OSMF",
+		"copyright": "http://www.openstreetmap.org/copyright"
+		}
+		{
+		"name": "AGFW-Hauptbericht 2016",
+		"description": "Data on CHP and district heating in Germany",
+		"url": "https://www.agfw.de/zahlen-und-statistiken/agfw-hauptbericht/",
+		"citation": "Hauptbericht 2016: AGFW, Der Energieeffizienzverband für Wärme, Kälte und KWK e. V."
+		"license": "",
+		"copyright": "AGFW, Frankfurt am Main"
+		}
+		{
+		"name": "Uebersicht Offshore-Netzanbindungen",
+		"description": "Overview on german offshore wind farms and grid connections in the north and east sea.",
+		"url": "http://www.erneuerbare-energien.de/EE/Navigation/DE/Technologien/Windenergie-auf-See/Offshore-Projekte/Netzanbindungen/netzanbindungen.html",
+		"citation": "",
+		"license": "CC BY-ND 3.0 DE",
+		"copyright": "2018 Bundesministerium für Wirtschaft und Energie",
+		}
+	],
+	"license":
+		{
+		"id": "",
+		"name": "",
+		"version": "",
+		"url": "",
+		"instruction": "",
+		"copyright": ""
+		},
+	"contributors": [
+		{
+		"name": "Till ben Brahim",
+		"email": "tilseb@dtu.dk",
+		"date": "2018-01-11",
+		"comment": "created metadata"
+		}
+	],
+	"resources": [
+		{
+		"name": "capacities_DE",
+		"format": "csv",
+
+		"fields": [
+{"name": "", "description": "Index", "type": "integer", "format": "" },
+{"name": "Area", "description": "Name of aggregated region", "format": "string" },
+{"name": "", "description": "Column with dots demanded by further processing", "format": "string" },
+{"name": "Technology", "description": "Name of aggregated technology type, incl. information on fuel and efficiency ", "format": "string" },
+{"name": "(2012, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2013, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2014, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2015, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2016, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2017, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2018, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2019, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2020, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2021, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2022, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2023, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2024, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2025, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2026, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2027, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2028, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2029, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2030, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2031, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2032, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2033, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2034, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2035, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2036, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2037, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2038, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2039, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2040, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2041, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2042, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2043, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2044, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2045, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2046, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2047, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2048, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2049, sum)", "description": "Installed capacity in that year", "format": "float" },
+{"name": "(2050, sum)", "description": "Installed capacity in that year", "format": "float" },
+		]
+	]
+	"metadata_version": "1"
+} 
